@@ -12,7 +12,8 @@
         android:id="@+id/reqBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Req Permission"
+        android:focusable="true"
+        android:text="@string/req_permission"
         android:textStyle="bold"
         android:clickable="true"/>
 

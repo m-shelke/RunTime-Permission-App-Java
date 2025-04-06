@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RunTime Permission App Java</string>
+    <string name="req_permission">Req Permission</string>
 </resources>
