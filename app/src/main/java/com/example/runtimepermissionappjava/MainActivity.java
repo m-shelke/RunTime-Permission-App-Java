@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
     Button reqBtn;
 
 //    Live Template demo example
-    private static final int LiveTemplate = 0;
+    private static int LiveTemplate = 0;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        //    For to solved, warning shown by Android Studio (variable not in used..!!)
+        LiveTemplate = 0;
 
 
         reqBtn = findViewById(R.id.reqBtn);
